@@ -1,5 +1,5 @@
 import express from 'express';
-import receiptsRouter from './routes/receipts'
+import receiptsRouter from './routes/receipts';
 const app = express();
 app.use(express.json());
 
